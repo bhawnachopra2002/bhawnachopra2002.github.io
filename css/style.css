@@ -1414,16 +1414,17 @@ input[type="text"] {
 #fh5co-consult span{
   margin: 0 auto;
 }
-/*@media (max-width: 768px){
-  #fh5co-header .display-tc, .fh5co-cover .display-tc{
-    height: 20%;
-  }
-}*/
+
 #fh5co-header .display-tc, .fh5co-cover .display-tc{
   position: absolute;
   top:13em;
   margin: 0 13%;
 }
+.icon-menu :before{
+  color: white;
+  font-size: x-large;
+}
+
 
 #yo{
   padding-top: 4px;
@@ -1446,9 +1447,5 @@ input[type="text"] {
     padding-top: 10.5px;
     padding-bottom: 10.5px;
 }
- .icon-menu :before{
-  color: white;
-  font-size: x-large;
-}
-
+ 
 /*# sourceMappingURL=style.css.map */
