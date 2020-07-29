@@ -1420,7 +1420,7 @@ input[type="text"] {
   top:13em;
   margin: 0 13%;
 }
-.icon-menu :before{
+.icon-menu{
   color: white;
   font-size: x-large;
 }
