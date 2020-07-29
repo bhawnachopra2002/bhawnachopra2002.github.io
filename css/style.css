@@ -1446,6 +1446,9 @@ input[type="text"] {
     padding-top: 10.5px;
     padding-bottom: 10.5px;
 }
-
+ .icon-menu :before{
+  color: white;
+  font-size: x-large;
+}
 
 /*# sourceMappingURL=style.css.map */
