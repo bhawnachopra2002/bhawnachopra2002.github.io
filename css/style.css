@@ -1449,12 +1449,12 @@ input[type="text"] {
     padding-bottom: 10.5px;
 }
 #fh5co-about{
-  background-color:#fab7b7;
+  background-color:#fab7b7 !important;
  }
 #fh5co-features{
-  background-color: #f5a8a8;
+  background-color: #f5a8a8 !important;
  }
 #fh5co-work{
-  background-color: #e19999;
+  background-color: #e19999 !important;
  }
 /*# sourceMappingURL=style.css.map */
