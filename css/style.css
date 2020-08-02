@@ -1379,6 +1379,7 @@ input[type="text"] {
  .demo{
   width: 100vw;
   padding-left: 0px;
+  padding-right: 0px;
    }
  .typewriter h4 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -1391,6 +1392,7 @@ input[type="text"] {
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+    animation-delay: 5s;
 }
 
 /* The typing effect */
@@ -1428,6 +1430,10 @@ input[type="text"] {
 #yo{
   padding-top: 4px;
 }
+.icon-menu{
+  color: white;
+  font-size: x-large;
+}
 @media (min-width: 768px){
   .navbar a {
     border-left: 0.5px solid white;
@@ -1446,6 +1452,7 @@ input[type="text"] {
     padding-top: 10.5px;
     padding-bottom: 10.5px;
 }
+
 
 
 /*# sourceMappingURL=style.css.map */
