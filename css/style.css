@@ -222,13 +222,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  /*background: #FF9000;*/
-<<<<<<< HEAD
-  /*
-background:url("../images/cover_bg_3.jpg");*/
-=======
-/*   background:url("../images/cover_bg_3.jpg"); */
->>>>>>> 63ced5172b088579d115f481970866f33c8510dc
+  
+background:url("../images/cover_bg_3.jpg");
 }
 #fh5co-features h2 {
   color: #fff;
@@ -1396,11 +1391,7 @@ input[type="text"] {
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
-<<<<<<< HEAD
     animation-delay: 5s;
-=======
-    animation-delay:5s;
->>>>>>> 63ced5172b088579d115f481970866f33c8510dc
 }
 
 /* The typing effect */
@@ -1466,7 +1457,7 @@ span::afer{
     padding-top: 10.5px;
     padding-bottom: 10.5px;
 }
-<<<<<<< HEAD
+
 @media (min-width: 320px){
   span::before{
   display: inherit;
@@ -1475,24 +1466,5 @@ span::afer{
   display: inherit;
 }
 }
-
- #fh5co-about{
-  background-color:#0f4c75;
- }
- #fh5co-features{
-  background-color: #3282b8;
- }
- #fh5co-work{
-  background-color: #bbe1fa;
-=======
-#fh5co-about{
-  background-color:#fab7b7;
- }
-#fh5co-features{
-  background-color: #f5a8a8;
- }
-#fh5co-work{
-  background-color: #e19999;
->>>>>>> 63ced5172b088579d115f481970866f33c8510dc
- }
+ 
 /*# sourceMappingURL=style.css.map */
