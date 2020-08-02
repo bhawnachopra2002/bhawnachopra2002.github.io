@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-features {
   /*background: #FF9000;*/
-  background:url("../images/cover_bg_3.jpg");
+/*   background:url("../images/cover_bg_3.jpg"); */
 }
 #fh5co-features h2 {
   color: #fff;
@@ -1448,5 +1448,13 @@ input[type="text"] {
     padding-top: 10.5px;
     padding-bottom: 10.5px;
 }
- 
+#fh5co-about{
+  background-color:#fab7b7;
+ }
+#fh5co-features{
+  background-color: #f5a8a8;
+ }
+#fh5co-work{
+  background-color: #e19999;
+ }
 /*# sourceMappingURL=style.css.map */
