@@ -223,8 +223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-features {
   /*background: #FF9000;*/
-  /*
-background:url("../images/cover_bg_3.jpg");*/
+  /*background:url("../images/cover_bg_3.jpg");*/
 }
 #fh5co-features h2 {
   color: #fff;
@@ -1368,7 +1367,15 @@ input[type="text"] {
  /* padding-top: 0px;
   padding-bottom: 0px;*/
  }
-
+ #fh5co-about{
+  background-color:#0f4c75;
+ }
+ #fh5co-features{
+  background-color: #3282b8;
+ }
+ #fh5co-work{
+  background-color: #bbe1fa;
+ }
  .abc{
   position: absolute;
   margin: 0;
@@ -1392,7 +1399,7 @@ input[type="text"] {
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
-    animation-delay: 5s;
+    animation-delay: 4s;
 }
 
 /* The typing effect */
@@ -1467,13 +1474,5 @@ span::afer{
 }
 }
 
- #fh5co-about{
-  background-color:#0f4c75;
- }
- #fh5co-features{
-  background-color: #3282b8;
- }
- #fh5co-work{
-  background-color: #bbe1fa;
- }
+
 /*# sourceMappingURL=style.css.map */
