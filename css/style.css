@@ -223,7 +223,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-features {
   /*background: #FF9000;*/
-  background:url("../images/cover_bg_3.jpg");
+  /*
+background:url("../images/cover_bg_3.jpg");*/
 }
 #fh5co-features h2 {
   color: #fff;
@@ -1367,8 +1368,7 @@ input[type="text"] {
  /* padding-top: 0px;
   padding-bottom: 0px;*/
  }
- 
- 
+
  .abc{
   position: absolute;
   margin: 0;
@@ -1434,6 +1434,12 @@ input[type="text"] {
   color: white;
   font-size: x-large;
 }
+span::before{
+  display: none;
+}
+span::afer{
+  display: none;
+}
 @media (min-width: 768px){
   .navbar a {
     border-left: 0.5px solid white;
@@ -1452,7 +1458,22 @@ input[type="text"] {
     padding-top: 10.5px;
     padding-bottom: 10.5px;
 }
+@media (min-width: 320px){
+  span::before{
+  display: inherit;
+}
+  span::after{
+  display: inherit;
+}
+}
 
-
-
+ #fh5co-about{
+  background-color:#0f4c75;
+ }
+ #fh5co-features{
+  background-color: #3282b8;
+ }
+ #fh5co-work{
+  background-color: #bbe1fa;
+ }
 /*# sourceMappingURL=style.css.map */
