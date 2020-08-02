@@ -223,8 +223,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-features {
   /*background: #FF9000;*/
+<<<<<<< HEAD
   /*
 background:url("../images/cover_bg_3.jpg");*/
+=======
+/*   background:url("../images/cover_bg_3.jpg"); */
+>>>>>>> 63ced5172b088579d115f481970866f33c8510dc
 }
 #fh5co-features h2 {
   color: #fff;
@@ -1392,7 +1396,11 @@ input[type="text"] {
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+<<<<<<< HEAD
     animation-delay: 5s;
+=======
+    animation-delay:5s;
+>>>>>>> 63ced5172b088579d115f481970866f33c8510dc
 }
 
 /* The typing effect */
@@ -1416,15 +1424,15 @@ input[type="text"] {
 #fh5co-consult span{
   margin: 0 auto;
 }
-/*@media (max-width: 768px){
-  #fh5co-header .display-tc, .fh5co-cover .display-tc{
-    height: 20%;
-  }
-}*/
+
 #fh5co-header .display-tc, .fh5co-cover .display-tc{
   position: absolute;
   top:13em;
   margin: 0 13%;
+}
+.icon-menu{
+  color: white;
+  font-size: x-large;
 }
 
 #yo{
@@ -1451,13 +1459,14 @@ span::afer{
   position: absolute;
   top:13em;
   padding:0;
-  left:12em;
+  left:11%;
   }
   .navbar-nav > li > a {
     font-size: large;
     padding-top: 10.5px;
     padding-bottom: 10.5px;
 }
+<<<<<<< HEAD
 @media (min-width: 320px){
   span::before{
   display: inherit;
@@ -1475,5 +1484,15 @@ span::afer{
  }
  #fh5co-work{
   background-color: #bbe1fa;
+=======
+#fh5co-about{
+  background-color:#fab7b7;
+ }
+#fh5co-features{
+  background-color: #f5a8a8;
+ }
+#fh5co-work{
+  background-color: #e19999;
+>>>>>>> 63ced5172b088579d115f481970866f33c8510dc
  }
 /*# sourceMappingURL=style.css.map */
