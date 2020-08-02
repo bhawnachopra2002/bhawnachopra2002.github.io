@@ -1379,7 +1379,7 @@ input[type="text"] {
  .demo{
   width: 100vw;
   padding-left: 0px;
-  padding-right:0px;
+  padding-right: 0px;
    }
  .typewriter h4 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
